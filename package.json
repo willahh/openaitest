@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "clj -M:dev"
+    "postcss:watch": "cross-env TAILWIND_MODE=watch postcss src/css/tailwind.css -o ./target/public/cljs-out/dev/style.css --verbose -w",
+    "figwheel:watch": "clj -M:dev",
+    "dev": "run-p -l *:watch"
   },
   "keywords": [],
   "author": "",
