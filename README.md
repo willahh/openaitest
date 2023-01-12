@@ -2,12 +2,18 @@
 
 
 ## Idées
-- Correcteur orthographique basé sur Open AI
+- Outil basé en grande partie par Open AI
+  - Correcteur orthographique
+  - Organisateur (Notes / Rappels / ...)
 - Open AI Playground
+- Electron desktop app
 
 
 ## TODO
 ### Tooling
+- [x] Setup Tailwind tools (config / treeshaker) with Clojurescript
+- [ ] Helper with all tailwind styles declarations
+  e.g. (require '[tailwind-helper :as tw]) [:div {:class [tw/text-lg tw/md:text-xl]}]
 - [ ] IntelliJ Clojure intellisense for Tailwind classes
 
 
@@ -17,6 +23,7 @@
   - Interaction avec l'api OPENAI via un serveur backend
 
 ### Frontend : Clojurescript
+  - Electron desktop
   - NPM
     - [Building deps]
       - webpack
