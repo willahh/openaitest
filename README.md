@@ -69,6 +69,7 @@ npm run dev
 - Project Scatfolding :
   - https://curiousprogrammer.dev/blog/how-can-i-create-a-clojure-script-web-app-from-scratch-with-reagent-and-npm
   - https://curiousprogrammer.dev/blog/how-can-i-use-tailwind-in-my-clojure-script-web-app
+  - https://www.youtube.com/watch?v=V-dBmuRsW6w&ab_channel=onthecodeagain
   
 - Await / async avec Promesa :https://funcool.github.io/promesa/latest/promises.html
 - Setup fullstack Clojure / Clojurescript app : https://www.youtube.com/watch?v=V-dBmuRsW6w&ab_channel=onthecodeagain
@@ -77,3 +78,11 @@ npm run dev
   - => Voir cet article https://curiousprogrammer.dev/blog/how-can-i-use-tailwind-in-my-clojure-script-web-app/
   - https://github.com/wilkerlucio/tailwind-garden
 
+
+## Thanks 
+Clarice Bouwer :
+ - https://curiousprogrammer.dev/blog/how-can-i-create-a-clojure-script-web-app-from-scratch-with-reagent-and-npm/
+ - 
+Daniel Amber : 
+ - https://daniel-amber.com/
+ - https://www.youtube.com/watch?v=V-dBmuRsW6w&ab_channel=onthecodeagain
