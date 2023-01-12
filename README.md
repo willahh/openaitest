@@ -6,6 +6,11 @@
 - Open AI Playground
 
 
+## TODO
+### Tooling
+- [ ] IntelliJ Clojure intellisense for Tailwind classes
+
+
 ## Stack
 ### Backend : Clojure
   - OPEN AI API
@@ -33,6 +38,8 @@
   - Github Action
 
 - Release / Deploy: Github Action
+
+
 
 ####
 - `npm-run-all` 
