@@ -1,6 +1,29 @@
 # OpenAI API tests
 
 
+## Usage
+
+### Run in development locally
+````dev
+npm run build
+````
+
+### Release the app
+````shell
+npm run release
+````
+
+### Build the app
+````shell
+npm run build
+````
+
+### Deploy the app
+````shell
+npm run deploy
+````
+
+
 ## Idées
 - Outil basé en grande partie par Open AI
   - Correcteur orthographique
@@ -68,10 +91,6 @@ PostCSS plugin to transform @import rules by inlining content.
 CSS post-processor that automatically adds vendor-prefixed CSS properties based on the browser capabilities.
 
 
-## Usage
-npm run dev
-
-
 ## Ressources
 - Project Scatfolding :
   - https://curiousprogrammer.dev/blog/how-can-i-create-a-clojure-script-web-app-from-scratch-with-reagent-and-npm
@@ -84,6 +103,12 @@ npm run dev
 - Tailwind :
   - => Voir cet article https://curiousprogrammer.dev/blog/how-can-i-use-tailwind-in-my-clojure-script-web-app/
   - https://github.com/wilkerlucio/tailwind-garden
+
+- Figma :
+  - => From Figma to Tailwind : https://www.youtube.com/watch?v=6XIT2nXIbLU&ab_channel=LeeRobinson
+
+- Storybook : 
+  - ShadowCLJS + Storybook https://github.com/lilactown/storybook-cljs
 
 
 ## Thanks 

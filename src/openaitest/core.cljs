@@ -1,7 +1,8 @@
 (ns openaitest.core
   (:require [axios]
             [moment]
-            [reagent.dom :as r.dom]))
+            [reagent.dom :as r.dom]
+            [openaitest.main :as main]))
 
 
 
@@ -27,7 +28,8 @@
        [:div.text-white.text-center.opacity-70.text-md
         [:p "A demo by " [a "https://clarice.bouwer.dev" "Clarice Bouwer"] " at curiousprogrammer.dev"]]
        [::div.text-white.text-center.opacity-50.text-sm.mt-5
-        [:span [a "https://benborgers.com/posts/tailwind-gradient-text" "Text gradients"] " by benborgers.com"]]])
+        [:span [a "https://benborgers.com/posts/tailwind-gradient-text" "Text gradients"] " by benborgers.com"]]
+       [main/main]])
 
 
 (r.dom/render [app] (js/document.getElementById "app"))
