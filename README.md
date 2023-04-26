@@ -5,7 +5,7 @@
 
 ### Run in development locally
 ````dev
-npm run build
+npm run dev
 ````
 
 ### Release the app
